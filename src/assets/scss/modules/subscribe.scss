@@ -1,0 +1,21 @@
+.subscribe {
+  padding: 73px 0;
+  background-color: #f0f0f0;
+  text-align: center;
+
+  .subscribe__title {
+    margin-bottom: 83px;
+    color: $neutral-primary;
+    font-size: rem(30);
+    font-weight: $mainFontWeight;
+    letter-spacing: 0.75px;
+  }
+
+  .subscribe__input {
+    padding: 12px 3px;
+    width: 380px;
+    background: none;
+    border-bottom: 1px solid $border-base;
+    font-size: rem(14);
+  }
+}

@@ -1,1 +1,26 @@
 // footer style
+.footer {
+  padding: 40px 0 42px;
+  background-color: #f0f0f0;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-menu,
+  .social {
+    padding: 0;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .social {
+    width: 139px;
+  }
+
+  .footer-menu__link {
+    color: $default-color;
+    font-size: rem(14);
+  }
+}

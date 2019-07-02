@@ -41,4 +41,15 @@
     margin-top: 132px;
     flex-basis: 420px;
   }
+
+  .post__load-more-btn {
+    width: 164px;
+    margin: 165px auto;
+    color: $primary-color;
+    line-height: 60px;
+    font-size: rem(20);
+    border: 1px solid $primary-color;
+    background: none;
+    cursor: pointer;
+  }
 }

@@ -19,6 +19,8 @@
   .menu__link {
     color: $primary-color;
     text-transform: uppercase;
-    font: rem(20) $mainFontWeight mainFont;
+    font-size: rem(20);
+    font-weight: $mainFontWeight;
+    font-family: $mainFont;
   }
 }
