@@ -1,0 +1,44 @@
+.posts {
+  padding: 99px 0 122px;
+  color: $primary-color;
+  .post__category {
+    display: block;
+    margin-top: 32px;
+    color: $light-color;
+    font-family: $primaryFont;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+
+  .post__link {
+    display: block;
+    margin-top: 32px;
+    color: $light-color;
+    font-size: rem(14);
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+
+  .post__title {
+    margin: 29px 0 34px;
+    font-size: rem(30);
+  }
+
+  .post__info {
+    font-size: rem(14);
+    font-family: $mainFont;
+    font-weight: $mainFontWeight;
+    line-height: $mainLineHeight;
+  }
+
+  .post-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .post__item {
+    margin-top: 132px;
+    flex-basis: 420px;
+  }
+}

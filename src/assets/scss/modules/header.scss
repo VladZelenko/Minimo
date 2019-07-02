@@ -1,0 +1,24 @@
+// header style
+
+.intro {
+  width: 1063px;
+  margin: auto;
+}
+
+.header {
+  margin: 75px 0 77px;
+  display: flex;
+  justify-content: space-between;
+
+  .menu {
+    width: 573px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .menu__link {
+    color: $primary-color;
+    text-transform: uppercase;
+    font: rem(20) $mainFontWeight mainFont;
+  }
+}
